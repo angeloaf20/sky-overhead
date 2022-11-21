@@ -9,13 +9,25 @@
 <body>
     <h1>Planet Info Lookup </h1>
     <label class="lookup">
-        Look up a planet: <input class="label-input" id="planet" type="text" placeholder="Mars...">
+        Look up a planet: <input class="label-input" id="search" type="text" placeholder="Mars...">
         <button class="input-btn" id="input-btn">Search</button>
     </label>
     <div class="data box">
-        <p class="data-text" id="data-box">
-            Data will go here
-        </p>
+        <div class="planet">
+            <p><strong>Planet: </strong><span id="planet"></span></p>
+        </div>
+        <div class="moons">
+            <p><strong>Number of moons: </strong><span id="moons"></span></p>
+        </div>
+        <div class="radius">
+            <p><strong>Equatorial radius: </strong><span id="eqrad"></span></p>
+        </div>
+        <div class="density">
+            <p><strong>Density: </strong><span id="density"></span></p>
+        </div>
+        <div class="gravity">
+            <p><strong>Gravity: </strong><span id="gravity"></span></p>
+        </div>
     </div>
     <script src="app.js"></script>
 </body>

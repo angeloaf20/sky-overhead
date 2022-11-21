@@ -4,7 +4,6 @@ html {
 }
 
 body {
-  text-align: center;
   font-family: "Helvetica", sans-serif;
   background-image: linear-gradient(180deg, #6699ff, #9933ff);
   background-repeat: no-repeat;
@@ -15,6 +14,13 @@ body {
 h1 {
   font-size: 2em;
   font-weight: bold;
+  text-align: center;
+}
+
+.lookup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .label-input {
@@ -24,17 +30,18 @@ h1 {
 .box {
   border-radius: 5px;
   background-color: #eee;
-  text-align: center;
-  max-width: 60%;
-  display: flex;
+  max-width: 30%;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  padding: 10px 10px;
 }
 
 .data-text {
-  margin-left: auto;
-  margin-right: auto;
+  font-size: 14px;
+  text-align: left;
+  padding: 2em;
+  margin-left: 10px;
 }
 
 .input-btn {
